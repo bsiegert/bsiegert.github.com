@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
 body {
 	max-width:100%;
 	min-width:42em;
@@ -74,9 +76,11 @@ a:hover {
 
 h1 {
 	position:absolute;
-		top:30px; left:200px;
+		top:25px; left:200px;
 	line-height:1.2em;
 	color:#FFFFFF;
+	font-family: Oswald, serif;
+	font-size:3em;
 	z-index:2;
 }
 
@@ -130,6 +134,7 @@ div.wltitle {
 h2.wlentry {
 	color:#990000;
 	font-weight:normal;
+	font-family: Oswald, serif;
 	font-size:150%;
 	display:inline;
 }
@@ -141,15 +146,12 @@ h2 a {
 }
 
 .wlsubtitle {
-	font-weight:bold;
+	font-family: Oswald, serif;
+	font-weight:normal;
 	color:#777777;
 	display:inline;
 	padding-left: 1em;
 	white-space:nowrap;
-}
-
-.wlsubtitle:before {
-	content:" ";
 }
 
 .wltagtitle {
