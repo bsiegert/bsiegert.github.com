@@ -4,6 +4,8 @@ body {
 	background-color:#DDDDDD;
 	margin:0px;
 	padding:0px;
+	font-family: Georgia, serif;
+	line-height: 133%;
 }
 
 body,p,.content {
